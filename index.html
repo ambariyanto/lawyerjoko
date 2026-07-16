@@ -1,803 +1,352 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joko Siswanto, S.Kom., S.H. | Lawyer Malang &amp; Konsultasi Hukum</title>
-  <meta name="description" content="Lawyer Malang Joko Siswanto, S.Kom., S.H. menyediakan layanan konsultasi hukum profesional. Hubungi 081330408000 untuk konsultasi.">
-  <meta name="keywords" content="lawyer Malang, pengacara Malang, jasa hukum Malang, konsultasi hukum Malang, advokat Malang">
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Google Material Symbols -->
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Header -->
-  <header class="header" id="header">
-    <div class="container header-inner">
-      <a href="#beranda" class="logo">
-        <div class="logo-icon">
-          <span class="material-symbols-outlined">balance</span>
-        </div>
-        <div class="logo-text">
-          <span class="logo-name">Joko Siswanto</span>
-          <span class="logo-title">S.Kom., S.H.</span>
-        </div>
-      </a>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Joko Siswanto, S.Kom., S.H.</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-      <nav class="nav-desktop">
-        <a href="#beranda">Beranda</a>
-        <a href="#tentang">Tentang</a>
-        <a href="#layanan">Layanan</a>
-        <a href="#mengapa-kami">Mengapa Kami</a>
-        <a href="#kontak">Kontak</a>
-      </nav>
-
-      <div class="header-actions">
-        <a href="tel:081330408000" class="btn btn-outline btn-phone">
-          <span class="material-symbols-outlined">phone</span>
-          <span class="phone-text">081330408000</span>
-        </a>
-        <a href="https://wa.me/6281330408000?text=Halo%20Pak%20Joko,%20saya%20ingin%20berkonsultasi%20hukum" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-          WhatsApp
-        </a>
-        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-          <span class="material-symbols-outlined">menu</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobileMenu">
-      <nav class="mobile-nav">
-        <a href="#beranda">Beranda</a>
-        <a href="#tentang">Tentang</a>
-        <a href="#layanan">Layanan</a>
-        <a href="#mengapa-kami">Mengapa Kami</a>
-        <a href="#kontak">Kontak</a>
-      </nav>
-      <div class="mobile-actions">
-        <a href="tel:081330408000" class="btn btn-outline btn-full">
-          <span class="material-symbols-outlined">phone</span>
-          081330408000
-        </a>
-        <a href="https://wa.me/6281330408000?text=Halo%20Pak%20Joko,%20saya%20ingin%20berkonsultasi%20hukum" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-full">
-          Konsultasi via WhatsApp
-        </a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <!-- Hero Section -->
-    <section id="beranda" class="hero">
-      <div class="hero-pattern"></div>
-      <div class="container">
-        <div class="hero-grid">
-          <div class="hero-content">
-            <div class="hero-badge">
-              <span class="material-symbols-outlined">workspace_premium</span>
-              <span>Founder lembakum.id</span>
-            </div>
-
-            <h1 class="hero-title">
-              Joko Siswanto,
-              <br>
-              <span class="accent">S.Kom., S.H.</span>
-            </h1>
-            
-            <p class="hero-subtitle">Lawyer Malang</p>
-
-            <p class="hero-description">
-              Konsultasi hukum profesional dan terpercaya di Malang. Dengan latar belakang teknologi dan hukum, 
-              siap memberikan solusi legal terbaik untuk Anda.
-            </p>
-
-            <div class="hero-info">
-              <div class="info-item">
-                <span class="material-symbols-outlined">phone</span>
-                <span>081330408000</span>
-              </div>
-              <div class="info-item">
-                <span class="material-symbols-outlined">location_on</span>
-                <span>Gondanglegi, Malang</span>
-              </div>
-              <div class="info-item">
-                <span class="material-symbols-outlined">bolt</span>
-                <span>Respon Cepat</span>
-              </div>
-            </div>
-
-            <div class="hero-cta">
-              <a href="https://wa.me/6281330408000?text=Halo%20Pak%20Joko,%20saya%20ingin%20berkonsultasi%20hukum" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
-                Konsultasi Sekarang
-              </a>
-              <a href="#tentang" class="btn btn-outline-accent btn-lg">
-                Lihat Profil
-              </a>
-            </div>
-          </div>
-
-          <div class="hero-cards">
-            <div class="stat-card">
-              <div class="stat-icon">
-                <span class="material-symbols-outlined">shield</span>
-              </div>
-              <h3>Terpercaya</h3>
-              <p>Layanan hukum profesional dengan integritas tinggi</p>
-            </div>
-            <div class="stat-card">
-              <div class="stat-icon">
-                <span class="material-symbols-outlined">groups</span>
-              </div>
-              <h3>Klien Puas</h3>
-              <p>Melayani berbagai kebutuhan hukum di seluruh Indonesia</p>
-            </div>
-            <div class="stat-card stat-card-wide">
-              <div class="stat-icon">
-                <span class="material-symbols-outlined">workspace_premium</span>
-              </div>
-              <h3>Dual Expertise</h3>
-              <p>Kombinasi unik antara keahlian Teknologi Informasi (S.Kom) dan Hukum (S.H) untuk solusi legal modern</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Trust Badges -->
-    <section class="trust-badges">
-      <div class="container">
-        <div class="badges-grid">
-          <div class="badge-item">
-            <div class="badge-icon">
-              <span class="material-symbols-outlined">verified_user</span>
-            </div>
-            <div>
-              <h4>Terdaftar Resmi</h4>
-              <p>Advokat terdaftar dan berlisensi</p>
-            </div>
-          </div>
-          <div class="badge-item">
-            <div class="badge-icon">
-              <span class="material-symbols-outlined">lock</span>
-            </div>
-            <div>
-              <h4>Kerahasiaan Terjamin</h4>
-              <p>Privasi klien adalah prioritas utama</p>
-            </div>
-          </div>
-          <div class="badge-item">
-            <div class="badge-icon">
-              <span class="material-symbols-outlined">schedule</span>
-            </div>
-            <div>
-              <h4>Respon 24 Jam</h4>
-              <p>Siap melayani konsultasi kapan saja</p>
-            </div>
-          </div>
-          <div class="badge-item">
-            <div class="badge-icon">
-              <span class="material-symbols-outlined">forum</span>
-            </div>
-            <div>
-              <h4>Konsultasi Mudah</h4>
-              <p>Via WhatsApp, telepon, atau tatap muka</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="tentang" class="about">
-      <div class="container">
-        <div class="about-grid">
-          <div class="about-image">
-            <div class="about-image-inner">
-              <div class="about-avatar">
-                <span class="material-symbols-outlined">workspace_premium</span>
-              </div>
-              <p class="about-name">Joko Siswanto</p>
-              <p class="about-title">S.Kom., S.H.</p>
-            </div>
-            <div class="about-image-border"></div>
-          </div>
-
-          <div class="about-content">
-            <p class="section-label">Tentang Kami</p>
-            <h2 class="section-title">Pengacara Profesional dengan Keahlian Ganda</h2>
-            
-            <p class="about-text">
-              Joko Siswanto, S.Kom., S.H. adalah seorang advokat yang memiliki latar belakang unik dalam 
-              bidang teknologi informasi dan hukum. Kombinasi keahlian ini memungkinkan pendekatan modern 
-              dan efisien dalam menangani berbagai kasus hukum.
-            </p>
-
-            <p class="about-text">
-              Sebagai founder dari lembakum.id, beliau berkomitmen untuk memberikan akses layanan hukum 
-              yang mudah dijangkau oleh masyarakat luas, khususnya di wilayah Malang dan sekitarnya, 
-              serta melayani klien di seluruh Indonesia.
-            </p>
-
-            <div class="credentials-grid">
-              <div class="credential-item">
-                <div class="credential-icon">
-                  <span class="material-symbols-outlined">school</span>
-                </div>
+        <nav id="nav">
+            <div class="container flex justify-between items-center">
                 <div>
-                  <h4>S.Kom - Sarjana Komputer</h4>
-                  <p>Latar belakang teknologi informasi</p>
+                    <a class="logo" href="#">
+                        <span class="icon hugeicons--justice-scale-01"></span>
+                        <span class="branding">
+                            <span class="part-1">Joko Siswanto</span>
+                            <span class="part-2">Law Office</span>
+                        </span>
+                    </a>
                 </div>
-              </div>
-              <div class="credential-item">
-                <div class="credential-icon">
-                  <span class="material-symbols-outlined">school</span>
+                <ul class="hidden lg:flex gap-5 ">
+                    <li>Layanan</li>
+                    <li>Tentang Kami</li>
+                    <li>Proses</li>
+                    <li>Artikel</li>
+                    <li>FAQ</li>
+                    <li>Kontak</li>
+                </ul>
+                <div class="hidden md:flex">
+                    <a class="button primary" href=""><span class="icon ic--outline-whatsapp"></span> Konsultasi Sekarang</a>
                 </div>
-                <div>
-                  <h4>S.H - Sarjana Hukum</h4>
-                  <p>Keahlian di bidang hukum</p>
+            </div>
+        </nav>
+
+        <header id="hero">
+            <div class="relative w-full">
+                <div class="container relative space-y-8 z-99">
+                    <div class="max-w-prose space-y-5">
+                        <h1 class="hero-title">Pendampingan Hukum<br>Profesional untuk<br>Individu, Keluarga, dan Bisnis<br class="hidden sm:inline"> <span>di Malang</span></h1>
+                        <p class="hero-subtitle">Mengutamakan solusi yang jelas, komunikasi yang terbuka, dan pendampingan hukum yang dapat dipercaya</p>
+                    </div>
+                    <div class="space-y-5">
+                        <div class="flex flex-col sm:flex-row gap-5">
+                            <a class="button primary" href=""><span class="icon ic--outline-whatsapp"></span> Konsultasi via WhatsApp</a>
+                            <a class="button secondary" href="">Lihat Layanan</a>
+                        </div>
+                        <ul class="icon-box trust-badges">
+                            <li class="item"><span class="icon solar--shield-check-linear"></span><p>Berlisensi<br>PERADI</p></li>
+                            <li class="item"><span class="icon hugeicons--justice-scale-01"></span><p>Litigasi &<br>Non Litigasi</p></li>
+                            <li class="item"><span class="icon hugeicons--chat-01"></span><p>Konsultasi<br>Online</p></li>
+                            <li class="item"><span class="icon lineicons--map-marker-5"></span><p>Berbasis di<br>Malang</p></li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-              <div class="credential-item">
-                <div class="credential-icon">
-                  <span class="material-symbols-outlined">work</span>
+                <div class="hidden md:flex absolute inset-y-0 right-0 w-1/2 z-0">
+                    <img src="images/lawyerjoko.jpg" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-[#071B2B] via-[#071B2B]/10 to-[#071B2B]/0"></div>
                 </div>
-                <div>
-                  <h4>Founder lembakum.id</h4>
-                  <p>Platform layanan hukum digital</p>
+            </div>
+            <section class="features">
+                <div class="container">
+                    <ul class="icon-box feature-list">
+                        <li class="item"><span class="icon fluent--people-team-32-regular"></span><div><span class="metric">150+</span><br>Klien Didampingi</div></li>
+                        <li class="item"><span class="icon hugeicons--briefcase-01"></span><div><span class="metric">10+</span><br>Tahun Pengalaman</div></li>
+                        <li class="item"><span class="icon hugeicons--star"></span><div><span class="metric">95%</span><br>Klien dari Referensi</div></li>
+                        <li class="item"><span class="icon solar--shield-star-linear"></span><div><span class="metric">4.9</span><br>Rating Konsultasi</div></li>
+                    </ul>
                 </div>
-              </div>
-              <div class="credential-item">
-                <div class="credential-icon">
-                  <span class="material-symbols-outlined">public</span>
+            </section>
+        </header>
+
+        <main>
+
+            <section id="layanan" class="border-b-1 border-olive-200">
+                <div class="container space-y-15">
+                    <section class="space-y-10">
+                        <header class="section-header text-center">
+                            <p class="section-eyebrow">Layanan Kami</p>
+                            <h2 class="section-title">Bidang Hukum yang<br class="block sm:hidden"> Kami Tangani</h2>
+                            <div class="section-header-separator"></div>
+                        </header>
+                        <div class="icon-box cards item-border">
+                            <div class="item"><span class="icon hugeicons--user-shield-02"></span><div><h3 class="title">Perdata</h3><p>Menyelesaikan sengketa perdata dengan strategi yang tepat.</p></div></div>
+                            <div class="item"><span class="icon fluent--gavel-16-regular"></span><div><h3 class="title">Pidana</h3><p>Pendampingan hukum pada setiap tahap proses hukum pidana.</p></div></div>
+                            <div class="item"><span class="icon mynaui--heart-broken"></span><div><h3 class="title">Perceraian</h3><p>Solusi terbaik untuk kasus perceraian dan hak asuh anak.</p></div></div>
+                            <div class="item"><span class="icon iconoir--donate"></span><div><h3 class="title">Waris</h3><p>Penyelesaian sengketa waris secara adil dan sesuai hukum.</p></div></div>
+                            <div class="item"><span class="icon ph--building-office"></span><div><h3 class="title">Perusahaan</h3><p>Pendampingan hukum untuk bisnis dan korporasi.</p></div></div>
+                            <div class="item"><span class="icon hugeicons--land-plot"></span><div><h3 class="title">Pertanahan</h3><p>Sengketa tanah, sertifikat dan permasalahan pertanahan.</p></div></div>
+                            <div class="item"><span class="icon bitcoin-icons--sign-outline"></span><div><h3 class="title">Perjanjian</h3><p>Pembuatan dan review kontrak serta perjanjian hukum.</p></div></div>
+                            <div class="item"><span class="icon hugeicons--agreement-02"></span><div><h3 class="title">Mediasi</h3><p>Penyelesaian sengketa melalui mediasi secara efektif.</p></div></div>
+                        </div>
+                    </section>
+                    <section class="flex flex-col space-y-2 md:flex-row justify-between bg-accentLight/50 p-10 rounded-md border-1 border-olive-200">
+                        <header class="section-header mb-10">
+                            <p class="section-eyebrow">Masalah yang Kami Tangani</p>
+                            <h3 class="section-title">Apakah Anda Mengalami<br>Masalah Berikut?</h3>
+                            <div class="section-header-separator"></div>
+                        </header>
+                        <ul class="list">
+                            <li>Sengketa tanah atau bangunan</li>
+                            <li>Gugatan wanprestasi</li>
+                            <li>Perceraian dan hak asuh anak</li>
+                            <li>Sengketa waris</li>
+                        </ul>
+                        <ul class="list">
+                            <li>Perusahaan bermasalah</li>
+                            <li>Penagihan piutang</li>
+                            <li>Sengketa kontrak/perjanjian</li>
+                        </ul>
+                    </section>
+                    <section class="justify-center space-y-10">
+                        <header class="section-header text-center">
+                            <p class="section-eyebrow">Mengapa Memilih Kami</p>
+                            <h3 class="section-title">Komitmen Kami<br class="block sm:hidden"> Untuk Klien</h3>
+                            <div class="section-header-separator"></div>
+                        </header>
+                    <ul class="icon-box cards">
+                        <li class="item"><span class="icon token--chat"></span><div><h4 class="title">Komunikasi yang Jelas</h4><p>Kami menjelaskan setiap langkah hukum dengan bahasa yang mudah dipahami.</p></div></li>
+                        <li class="item"><span class="icon heroicons--clipboard-document-check"></span><div><h4 class="title">Pendekatan Realistis</h4><p>Kami memberikan strategi terbaik berdasarkan kondisi perkara secara objektif.</p></div></li>
+                        <li class="item"><span class="icon material-symbols--speed-outline-rounded"></span><div><h4 class="title">Respon Cepat</h4><p>WhatsApp dijawab dengan cepat pada jam kerja.</p></div></li>
+                        <li class="item"><span class="icon solar--shield-user-linear"></span><div><h4 class="title">Kerahasiaan Terjamin</h4><p>Setiap konsultasi klien kami jaga kerahasiaannya dengan etika profesi.</p></div></li>
+                    </ul>
+                    </section>
                 </div>
-                <div>
-                  <h4>Melayani Seluruh Indonesia</h4>
-                  <p>Berbasis di Malang, jangkauan nasional</p>
+            </section>
+
+            <section id="tentang">
+                <div class="container flex flex-col md:flex-row">
+                    <div class="flex-1 space-y-5 bg-accentLight p-10 rounded-tl-lg rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg">
+                        <header class="section-header">
+                            <p class="section-eyebrow">Tentang Kami</p>
+                            <h2 class="section-title">Joko Siswanto, S.Kom., S.H.<br>Advokat</h2>
+                            <div class="section-header-separator"></div>
+                        </header>
+                        <p>Berpengalaman lebih dari 10 tahun dalam menangani berbagai perkara litigasi dan non litigasi untuk klien individu, keluarga, dan perusahaan</p>
+                        <ul class="list">
+                            <li>Berlisesi dan terdaftar pada PERADI</li>
+                            <li>Pendidikan S1 Teknik Informatika - Universitas Bhina Nusantara</li>
+                            <li>Pendidikan S1 Hukum - Universitas </li>
+                            <li>Spesialis Perdata, Bisnis, dan Pertanahan</li>
+                        </ul>
+                    </div>
+                    <div class="flex-1 rounded-bl-lg rounded-br-lg md:rounded-bl-none md:rounded-tr-lg overflow-hidden">
+                        <img src="images/lawyerjoko2.jpg" class="w-full h-full object-cover object-center">
+                    </div>
                 </div>
-              </div>
-            </div>
+            </section>
 
-            <div class="social-links">
-              <p>Terhubung dengan saya:</p>
-              <div class="social-buttons">
-                <a href="https://instagram.com/lawyerjoko" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a href="https://linkedin.com/in/jokonet" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://x.com/jokonet" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
-                <a href="https://facebook.com/jokonet" target="_blank" rel="noopener noreferrer">Facebook</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="layanan" class="services">
-      <div class="container">
-        <div class="section-header">
-          <p class="section-label">Layanan Hukum</p>
-          <h2 class="section-title">Solusi Hukum Komprehensif untuk Anda</h2>
-          <p class="section-description">
-            Kami menyediakan berbagai layanan hukum profesional untuk memenuhi kebutuhan Anda, 
-            dari konsultasi hingga pendampingan di pengadilan.
-          </p>
-        </div>
-
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">
-              <span class="material-symbols-outlined">balance</span>
-            </div>
-            <h3>Konsultasi Hukum Umum</h3>
-            <p>Layanan konsultasi untuk berbagai permasalahan hukum, baik perdata maupun pidana.</p>
-            <ul class="service-features">
-              <li><span class="dot"></span>Analisis kasus</li>
-              <li><span class="dot"></span>Saran hukum</li>
-              <li><span class="dot"></span>Strategi penyelesaian</li>
-            </ul>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">
-              <span class="material-symbols-outlined">description</span>
-            </div>
-            <h3>Pengurusan Dokumen Legal</h3>
-            <p>Pembuatan dan pengurusan dokumen hukum seperti perjanjian, kontrak, dan surat kuasa.</p>
-            <ul class="service-features">
-              <li><span class="dot"></span>Drafting kontrak</li>
-              <li><span class="dot"></span>Review dokumen</li>
-              <li><span class="dot"></span>Legalisasi</li>
-            </ul>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">
-              <span class="material-symbols-outlined">home</span>
-            </div>
-            <h3>Hukum Properti &amp; Pertanahan</h3>
-            <p>Penanganan sengketa tanah, jual beli properti, sertifikasi, dan permasalahan pertanahan.</p>
-            <ul class="service-features">
-              <li><span class="dot"></span>Sengketa tanah</li>
-              <li><span class="dot"></span>Jual beli properti</li>
-              <li><span class="dot"></span>Sertifikasi</li>
-            </ul>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">
-              <span class="material-symbols-outlined">family_restroom</span>
-            </div>
-            <h3>Hukum Keluarga</h3>
-            <p>Pendampingan dalam urusan perceraian, hak asuh anak, dan pembagian harta gono-gini.</p>
-            <ul class="service-features">
-              <li><span class="dot"></span>Perceraian</li>
-              <li><span class="dot"></span>Hak asuh anak</li>
-              <li><span class="dot"></span>Waris</li>
-            </ul>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">
-              <span class="material-symbols-outlined">apartment</span>
-            </div>
-            <h3>Hukum Bisnis &amp; Perusahaan</h3>
-            <p>Konsultasi pendirian perusahaan, merger, akuisisi, dan permasalahan hukum bisnis.</p>
-            <ul class="service-features">
-              <li><span class="dot"></span>Pendirian PT/CV</li>
-              <li><span class="dot"></span>Kontrak bisnis</li>
-              <li><span class="dot"></span>Compliance</li>
-            </ul>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">
-              <span class="material-symbols-outlined">gavel</span>
-            </div>
-            <h3>Pendampingan Hukum</h3>
-            <p>Pendampingan dalam proses litigasi maupun non-litigasi, termasuk mediasi dan negosiasi.</p>
-            <ul class="service-features">
-              <li><span class="dot"></span>Litigasi</li>
-              <li><span class="dot"></span>Mediasi</li>
-              <li><span class="dot"></span>Negosiasi</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="services-cta">
-          <a href="https://wa.me/6281330408000?text=Halo%20Pak%20Joko,%20saya%20ingin%20berkonsultasi%20tentang%20layanan%20hukum" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
-            Konsultasi Gratis
-            <span class="material-symbols-outlined">arrow_forward</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section id="mengapa-kami" class="why-us">
-      <div class="container">
-        <div class="section-header section-header-light">
-          <p class="section-label">Mengapa Memilih Kami</p>
-          <h2 class="section-title">Keunggulan Layanan Kami</h2>
-          <p class="section-description">
-            Berbagai alasan mengapa klien mempercayakan permasalahan hukum mereka kepada kami.
-          </p>
-        </div>
-
-        <div class="reasons-grid">
-          <div class="reason-item">
-            <div class="reason-icon">
-              <span class="material-symbols-outlined">lightbulb</span>
-            </div>
-            <div>
-              <h3>Dual Expertise</h3>
-              <p>Kombinasi unik keahlian Teknologi Informasi dan Hukum untuk pendekatan modern dalam menangani kasus.</p>
-            </div>
-          </div>
-
-          <div class="reason-item">
-            <div class="reason-icon">
-              <span class="material-symbols-outlined">schedule</span>
-            </div>
-            <div>
-              <h3>Respon Cepat</h3>
-              <p>Komitmen untuk merespons setiap konsultasi dengan cepat melalui WhatsApp atau telepon.</p>
-            </div>
-          </div>
-
-          <div class="reason-item">
-            <div class="reason-icon">
-              <span class="material-symbols-outlined">forum</span>
-            </div>
-            <div>
-              <h3>Komunikasi Jelas</h3>
-              <p>Penjelasan hukum yang mudah dipahami tanpa jargon rumit.</p>
-            </div>
-          </div>
-
-          <div class="reason-item">
-            <div class="reason-icon">
-              <span class="material-symbols-outlined">track_changes</span>
-            </div>
-            <div>
-              <h3>Solusi Praktis</h3>
-              <p>Fokus pada penyelesaian masalah yang efektif dan efisien.</p>
-            </div>
-          </div>
-
-          <div class="reason-item">
-            <div class="reason-icon">
-              <span class="material-symbols-outlined">favorite</span>
-            </div>
-            <div>
-              <h3>Client-Centric</h3>
-              <p>Kepentingan dan kesejahteraan klien selalu menjadi prioritas utama.</p>
-            </div>
-          </div>
-
-          <div class="reason-item">
-            <div class="reason-icon">
-              <span class="material-symbols-outlined">payments</span>
-            </div>
-            <div>
-              <h3>Transparansi Biaya</h3>
-              <p>Struktur biaya yang jelas dan transparan, tanpa biaya tersembunyi.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials">
-      <div class="container">
-        <div class="section-header">
-          <p class="section-label">Testimoni Klien</p>
-          <h2 class="section-title">Apa Kata Mereka</h2>
-          <p class="section-description">
-            Kepuasan klien adalah prioritas utama kami.
-          </p>
-        </div>
-
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div class="testimonial-quote">
-              <span class="material-symbols-outlined">format_quote</span>
-            </div>
-            <div class="testimonial-rating">
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-            </div>
-            <p class="testimonial-text">"Pak Joko sangat membantu dalam pengurusan legalitas perusahaan saya. Prosesnya cepat dan penjelasannya sangat mudah dipahami."</p>
-            <div class="testimonial-author">
-              <strong>Budi Santoso</strong>
-              <span>Pengusaha - Malang</span>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-quote">
-              <span class="material-symbols-outlined">format_quote</span>
-            </div>
-            <div class="testimonial-rating">
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-            </div>
-            <p class="testimonial-text">"Saya sangat terbantu dalam kasus sengketa properti. Pendampingannya profesional dan selalu responsif via WhatsApp."</p>
-            <div class="testimonial-author">
-              <strong>Sri Wahyuni</strong>
-              <span>Karyawan Swasta - Surabaya</span>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-quote">
-              <span class="material-symbols-outlined">format_quote</span>
-            </div>
-            <div class="testimonial-rating">
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-              <span class="material-symbols-outlined filled">star</span>
-            </div>
-            <p class="testimonial-text">"Konsultasi yang diberikan sangat detail dan solutif. Biayanya juga transparan dari awal. Sangat recommended!"</p>
-            <div class="testimonial-author">
-              <strong>Ahmad Hidayat</strong>
-              <span>Wiraswasta - Blitar</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="faq">
-      <div class="container">
-        <div class="faq-wrapper">
-          <div class="section-header">
-            <p class="section-label">FAQ</p>
-            <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
-            <p class="section-description">
-              Temukan jawaban atas pertanyaan umum tentang layanan hukum kami.
-            </p>
-          </div>
-
-          <div class="faq-list" id="faqList">
-            <div class="faq-item">
-              <button class="faq-question">
-                <span>Bagaimana cara berkonsultasi dengan Pak Joko?</span>
-                <span class="material-symbols-outlined faq-icon">expand_more</span>
-              </button>
-              <div class="faq-answer">
-                <p>Anda dapat menghubungi kami via WhatsApp di nomor 081330408000, telepon langsung, atau mengisi form kontak di website ini. Kami akan merespons dalam waktu 1x24 jam.</p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <button class="faq-question">
-                <span>Berapa biaya konsultasi hukum?</span>
-                <span class="material-symbols-outlined faq-icon">expand_more</span>
-              </button>
-              <div class="faq-answer">
-                <p>Biaya konsultasi bervariasi tergantung kompleksitas kasus. Untuk konsultasi awal via WhatsApp atau telepon, kami menyediakan layanan konsultasi gratis untuk memahami kebutuhan Anda terlebih dahulu.</p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <button class="faq-question">
-                <span>Apakah melayani klien di luar Malang?</span>
-                <span class="material-symbols-outlined faq-icon">expand_more</span>
-              </button>
-              <div class="faq-answer">
-                <p>Ya, kami melayani klien di seluruh Indonesia. Untuk konsultasi jarak jauh, kami dapat menggunakan video call atau telepon. Untuk kasus yang memerlukan kehadiran fisik, kami dapat mengatur kunjungan.</p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <button class="faq-question">
-                <span>Apa saja dokumen yang perlu disiapkan untuk konsultasi?</span>
-                <span class="material-symbols-outlined faq-icon">expand_more</span>
-              </button>
-              <div class="faq-answer">
-                <p>Untuk konsultasi awal, siapkan dokumen yang relevan dengan kasus Anda seperti KTP, surat perjanjian, bukti transaksi, atau dokumen pendukung lainnya. Tim kami akan memandu dokumen spesifik yang diperlukan.</p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <button class="faq-question">
-                <span>Berapa lama proses penanganan kasus hukum?</span>
-                <span class="material-symbols-outlined faq-icon">expand_more</span>
-              </button>
-              <div class="faq-answer">
-                <p>Durasi penanganan kasus sangat bervariasi tergantung jenis dan kompleksitas kasus. Untuk pengurusan dokumen sederhana bisa selesai dalam 1-2 minggu, sementara kasus litigasi bisa memakan waktu berbulan-bulan.</p>
-              </div>
-            </div>
-
-            <div class="faq-item">
-              <button class="faq-question">
-                <span>Apakah kerahasiaan klien terjamin?</span>
-                <span class="material-symbols-outlined faq-icon">expand_more</span>
-              </button>
-              <div class="faq-answer">
-                <p>Tentu saja. Kerahasiaan klien adalah prioritas utama kami. Semua informasi dan dokumen yang Anda berikan akan dijaga kerahasiaannya sesuai dengan kode etik advokat.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA Banner -->
-    <section class="cta-banner">
-      <div class="cta-pattern"></div>
-      <div class="container">
-        <div class="cta-content">
-          <h2>Butuh Bantuan Hukum?</h2>
-          <p>Konsultasikan permasalahan hukum Anda sekarang. Kami siap membantu memberikan solusi terbaik.</p>
-          
-          <div class="cta-buttons">
-            <a href="https://wa.me/6281330408000?text=Halo%20Pak%20Joko,%20saya%20ingin%20berkonsultasi%20hukum" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
-              <span class="material-symbols-outlined">chat</span>
-              Hubungi via WhatsApp
-            </a>
-            <a href="tel:081330408000" class="btn btn-outline-accent btn-lg">
-              <span class="material-symbols-outlined">phone</span>
-              081330408000
-            </a>
-          </div>
-
-          <p class="cta-note">Respon cepat dalam 1x24 jam. Konsultasi awal gratis.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="kontak" class="contact">
-      <div class="container">
-        <div class="section-header">
-          <p class="section-label">Kontak</p>
-          <h2 class="section-title">Hubungi Kami</h2>
-          <p class="section-description">
-            Siap membantu permasalahan hukum Anda. Hubungi kami melalui form, telepon, atau WhatsApp.
-          </p>
-        </div>
-
-        <div class="contact-grid">
-          <div class="contact-form-card">
-            <form id="contactForm" class="contact-form">
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="name">Nama Lengkap</label>
-                  <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+            <section id="proses" class="border-b-1 border-olive-200">
+                <div class="container space-y-10">
+                    <header class="section-header text-center">
+                        <p class="section-eyebrow">Proses Penanganan Perkara</p>
+                        <h2 class="section-title">Bagaimana Kami Bekerja</h2>
+                        <div class="section-header-separator"></div>
+                    </header>
+                    <ul class="icon-box steps">
+                        <li class="item">
+                            <span class="icon ph--number-circle-one-fill"></span>
+                            <span>
+                                <h3 class="title">Konsultasi Awal</h3>
+                                <p>Anda menjelaskan permasalahan pada kami.</p>
+                            </span>
+                        </li>
+                        <li class="item">
+                            <span class="icon ph--number-circle-two-fill"></span>
+                            <span>
+                                <h3 class="title">Analisis &amp; Dokumen</h3>
+                                <p>Kami menganalisis perkara dan dokumen terkait.</p>
+                            </span>
+                        </li>
+                        <li class="item">
+                            <span class="icon ph--number-circle-three-fill"></span>
+                            <span>
+                                <h3 class="title">Strategi Hukum</h3>
+                                <p>Kami menyusun strategi hukum yang paling tepat untuk Anda.</p>
+                            </span>
+                        </li>
+                        <li class="item">
+                            <span class="icon ph--number-circle-four-fill"></span>
+                            <span>
+                                <h3 class="title">Pendampingan</h3>
+                                <p>Kami mendampingi setiap proses sesuai kesepakatan.</p>
+                            </span>
+                        </li>
+                        <li class="item">
+                            <span class="icon ph--number-circle-five-fill"></span>
+                            <span>
+                                <h3 class="title">Penyelesaian</h3>
+                                <p>Kami berupaya mencapai hasil terbaik bagi kepentingan Anda.</p>
+                            </span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="form-group">
-                  <label for="phone">Nomor Telepon</label>
-                  <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxxxx" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="email@example.com" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Pesan / Deskripsi Kasus</label>
-                <textarea id="message" name="message" rows="5" placeholder="Ceritakan permasalahan hukum Anda..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-full">
-                <span class="material-symbols-outlined">send</span>
-                Kirim Pesan
-              </button>
-              <p class="form-note">Form ini akan mengarahkan Anda ke WhatsApp untuk komunikasi lebih lanjut.</p>
-            </form>
-          </div>
+            </section>
 
-          <div class="contact-info">
-            <div class="contact-info-grid">
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <span class="material-symbols-outlined">phone</span>
+            <section id="testimoni">
+                <div class="container space-y-10">
+                    <header class="section-header text-center">
+                        <p class="section-eyebrow">Testimoni Klien</p>
+                        <h2 class="section-title">Apa Kata Klien Kami</h2>
+                        <div class="section-header-separator"></div>
+                    </header>
+                    <div class="testimonials flex flex-col md:flex-row">
+                        <div class="testimonial-item">
+                            <div class="icons">
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                            </div>
+                            <p>Penjelasannya sangat jelas dan mudah dipahami. Saya merasa tenang karena ditangani secara profesional.</p>
+                            <span class="testimonial-user">- Pengusaha, Malang</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="icons">
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                            </div>
+                            <p>Sangat membantu dalam proses perceraian saya. Komunikatif dan selalu memberi solusi terbaik.</p>
+                            <span class="testimonial-user">- Ibu Rumah Tangga, Malang</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="icons">
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                                <span class="typcn--star-full-outline"></span>
+                            </div>
+                            <p>Pendampingan hukum perusahaan kami sangat baik. Respon cepat dan hasilnya memuaskan.</p>
+                            <span class="testimonial-user">- Direktur Perusahaan, Malang</span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                  <p class="contact-info-label">Telepon / WhatsApp</p>
-                  <a href="tel:081330408000" class="contact-info-value">081330408000</a>
-                </div>
-              </div>
+            </section>
 
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <span class="material-symbols-outlined">mail</span>
+            <section id="faq">
+                <div class="container space-y-10">
+                    <header class="section-header text-center">
+                        <p class="section-eyebrow">Pertanyaan yang Sering Ditanyakan</p>
+                        <h2 class="section-title">FAQ</h2>
+                        <div class="section-header-separator"></div>
+                    </header>
+                    <div class="flex flex-col md:flex-row justify-center gap-2">
+                        <div class="flex-1 md:w-sm space-y-2">
+                            <details class="faq-item group">
+                                <summary>
+                                    <p>Berapa biaya konsultasi?</p>
+                                    <span class="transition-transform duration-200 group-open:rotate-45">+</span>
+                                </summary>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </details>
+                            <details class="faq-item group">
+                                <summary>
+                                    <p>Apakah bisa konsultasi online?</p>
+                                    <span class="transition-transform duration-200 group-open:rotate-45">+</span>
+                                </summary>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </details>
+                            <details class="faq-item group">
+                                <summary>
+                                    <p>Apakah semua perkara harus ke pengadilan?</p>
+                                    <span class="transition-transform duration-200 group-open:rotate-45">+</span>
+                                </summary>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </details>
+                        </div>
+                        <div class="flex-1 md:w-sm space-y-2">
+                            <details class="faq-item group">
+                                <summary>
+                                    <p>Bagaimana privasi klien diperlakukan?</p>
+                                    <span class="transition-transform duration-200 group-open:rotate-45">+</span>
+                                </summary>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </details>
+                            <details class="faq-item group">
+                                <summary>
+                                    <p>Apakah menerima klien luar malang?</p>
+                                    <span class="transition-transform duration-200 group-open:rotate-45">+</span>
+                                </summary>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </details>
+                            <details class="faq-item group">
+                                <summary>
+                                    <p>Dokumen apa saja yang perlu disiapkan sebelum komunikasi?</p>
+                                    <span class="transition-transform duration-200 group-open:rotate-45">+</span>
+                                </summary>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </details>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                  <p class="contact-info-label">Email</p>
-                  <a href="mailto:contact@lembakum.id" class="contact-info-value">contact@lembakum.id</a>
-                </div>
-              </div>
+            </section>
 
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <span class="material-symbols-outlined">location_on</span>
-                </div>
-                <div>
-                  <p class="contact-info-label">Lokasi</p>
-                  <a href="https://maps.google.com/?q=Gondanglegi,Malang" target="_blank" rel="noopener noreferrer" class="contact-info-value">Gondanglegi, Malang, Jawa Timur</a>
-                </div>
-              </div>
+        </main>
 
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <span class="material-symbols-outlined">schedule</span>
+        <footer id="footer">
+            <div class="container">
+                <div class="flex flex-col sm:flex-row justify-between gap-5 border-b-1 border-olive-200/20 pb-8 mb-8">
+                    <div class="max-w-sm flex flex-col gap-4 lg:gap-8">
+                        <a class="logo" href="#">
+                            <span class="icon hugeicons--justice-scale-01"></span>
+                            <span class="branding">
+                                <span class="part-1">Joko Siswanto</span>
+                                <span class="part-2">Law Office</span>
+                            </span>
+                        </a>
+                        <p>Memberikan layanan hukum profesional dengan integritas, dedikasi, dan komintmen untuk kepentingan terbaik klien.</p>
+                        <nav class="social-links">
+                            <ul class="flex gap-5">
+                                <li>LinkedIn</li>
+                                <li>Instagram</li>
+                                <li>TikTok</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="quick-links space-y-5">
+                        <p class="font-medium">Quick Links</p>
+                        <nav class="bottom-nav">
+                            <ul class="flex gap-3 sm:flex-col sm:gap-0 lg:flex-row lg:gap-3">
+                                <li><a href="">Layanan</a></li>
+                                <li><a href="" class="text-nowrap">Tentang Kami</a></li>
+                                <li><a href="">Proses</a></li>
+                                <li><a href="">Testimoni</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="address space-y-5 ">
+                        <p class="font-medium">Kontak Kami</p>
+                        <ul>
+                            <li>Gondanglegi, Malang, Jawa Timur</li>
+                            <li>081330408000</li>
+                            <li>info@laywerjoko.com</li>
+                            <li>Sen - Jum 08.00 - 17.00 WIB</li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                  <p class="contact-info-label">Jam Operasional</p>
-                  <p class="contact-info-value">Senin - Sabtu, 08:00 - 17:00</p>
-                </div>
-              </div>
+                <p class="text-white">&copy; 2026 Joko Siswanto Law Office. Allrights reserved.</p>
             </div>
+        </footer>
 
-            <div class="contact-map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31595.86723682651!2d112.63!3d-8.17!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd61f0a7a7de91d%3A0x3030bfbcaf4f850!2sGondanglegi%2C%20Malang%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid"
-                width="100%"
-                height="100%"
-                style="border: 0;"
-                allowfullscreen
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="Lokasi Kantor Joko Siswanto"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="#beranda" class="footer-logo">
-            <div class="footer-logo-icon">
-              <span class="material-symbols-outlined">balance</span>
-            </div>
-            <div>
-              <span class="footer-logo-name">Joko Siswanto</span>
-              <span class="footer-logo-title">S.Kom., S.H.</span>
-            </div>
-          </a>
-          <p class="footer-description">
-            Konsultasi hukum profesional dan terpercaya di Malang. Melayani berbagai kebutuhan hukum 
-            dengan pendekatan modern dan solusi yang efektif.
-          </p>
-          <div class="footer-contact">
-            <div class="footer-contact-item">
-              <span class="material-symbols-outlined">phone</span>
-              <span>081330408000</span>
-            </div>
-            <div class="footer-contact-item">
-              <span class="material-symbols-outlined">location_on</span>
-              <span>Gondanglegi, Malang, Jawa Timur</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-nav">
-          <h3>Navigasi</h3>
-          <ul>
-            <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#tentang">Tentang</a></li>
-            <li><a href="#layanan">Layanan</a></li>
-            <li><a href="#kontak">Kontak</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-legal">
-          <h3>Legal</h3>
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Disclaimer</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2024 Joko Siswanto, S.Kom., S.H. All rights reserved.</p>
-        <div class="footer-social">
-          <a href="https://instagram.com/lawyerjoko" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <span class="material-symbols-outlined">photo_camera</span>
-          </a>
-          <a href="https://linkedin.com/in/jokonet" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <span class="material-symbols-outlined">work</span>
-          </a>
-          <a href="https://facebook.com/jokonet" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-            <span class="material-symbols-outlined">thumb_up</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/6281330408000?text=Halo%20Pak%20Joko,%20saya%20ingin%20berkonsultasi%20hukum" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat via WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-  </a>
-
-  <script src="script.js"></script>
-</body>
+    </body>
 </html>
