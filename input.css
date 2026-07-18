@@ -93,6 +93,8 @@
 @theme {
     --color-primary: #071B2B;
     --color-accent: oklch(68.1% 0.162 75.834);
+    --color-accentDark: oklch(0.57 0.12 78.15);
+    --color-accentDarker: oklch(0.55 0.09 82.32);
     --color-accentLight: oklch(98% 0.016 73.684);
     --font-title: "Newsreader", sans-serif;
     --font-body: "Inter", sans-serif;
@@ -195,8 +197,13 @@ section .container {
 
 .section-eyebrow {
     letter-spacing: .1em;
-    @apply uppercase text-sm font-medium text-accent;
+    @apply uppercase text-sm font-medium text-accentDark;
 }
+
+.section-eyebrow.darker {
+    @apply text-accentDarker;
+}
+
 
 .section-title {
     /* @apply font-title text-4xl; */
@@ -206,7 +213,7 @@ section .container {
 }
 
 .button {
-    @apply flex items-center justify-center sm:justify-start gap-1 text-white px-5 py-3 rounded-md;
+    @apply flex items-center justify-center sm:justify-start gap-1 text-primary px-5 py-3 rounded-md;
 }
 
 .button .icon {
@@ -218,7 +225,7 @@ section .container {
 }
 
 .button.secondary {
-    @apply bg-primary border-2 border-accent;
+    @apply bg-primary border-2 border-accent text-white;
 }
 
 /*-------- ICON BOX ---------*/
