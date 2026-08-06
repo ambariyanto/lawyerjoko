@@ -4,9 +4,7 @@ Official website for **Joko Siswanto Law Office**, built as a lightweight, respo
 
 ## Live Website
 
-🌐 https://ambariyanto.github.io/lawyerjoko/
-
-> This URL is temporary while the custom domain is being configured.
+https://lawyerjoko.com
 
 ## Features
 
