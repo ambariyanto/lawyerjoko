@@ -204,6 +204,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .inset-0 {
     inset: 0;
   }
@@ -607,7 +610,7 @@ a.link:hover {
 .logo .icon {
   height: calc(var(--spacing) * 10);
   width: calc(var(--spacing) * 10);
-  background-color: var(--color-accent);
+  background-color: transparent !important;
   @media (width >= 40rem) {
     height: calc(var(--spacing) * 12);
   }
@@ -965,11 +968,12 @@ a.link:hover {
 }
 .icon-box.address .item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: calc(var(--spacing) * 2);
 }
 .icon-box.address .icon {
+  margin-top: var(--spacing);
   background-color: var(--color-accent);
 }
 .list {

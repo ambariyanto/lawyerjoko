@@ -118,7 +118,7 @@ a.link:hover {
 }
 
 .logo .icon {
-    @apply bg-accent h-10 w-10 sm:h-12 sm:w-12;
+    @apply bg-transparent! h-10 w-10 sm:h-12 sm:w-12;
 }
 
 .logo .branding {
@@ -350,11 +350,11 @@ THE ANSWER TO WHY SVG ICONS DIMENSIONS WORK WEIRDLY IN FLEX-ROW
 }
 
 .icon-box.address .item {
-    @apply flex gap-2 items-center justify-start;
+    @apply flex gap-2 items-start justify-start;
 }
 
 .icon-box.address .icon {
-    @apply bg-accent;
+    @apply bg-accent mt-1;
 }
 
 /*-------- END OF ICON BOX ---------*/
